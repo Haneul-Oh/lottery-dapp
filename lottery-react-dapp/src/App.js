@@ -106,17 +106,37 @@ function App() {
 
   const pollData = async () => {
     await getPot();
-    // await this.getBetEvents();
+    await getBetEvents();
     // await this.getWinEvents();
     // await this.getFailEvents();
     // this.makeFinalRecords();
   }
 
   const getPot = async () => {
-    let pot = await lotteryContract.methods.getPot().call();
-    let potString = web3.utils.fromWei(pot.toString(), 'ether');
-    setPot(potString);
-    console.log("[getPot]", potString)
+    if(lotteryContract !== undefined){
+      let pot = await lotteryContract.methods.getPot().call();
+      let potString = web3.utils.fromWei(pot.toString(), 'ether');
+      setPot(potString);
+      console.log("[getPot]", "pot:", potString)
+    }
+  }
+
+  const bet = async () => {
+    if(lotteryContract !== undefined){
+      let nonce = await web3.eth.getTransactionCount(account);
+      let challenges = '0xab';
+      let gas = '300000';
+      await lotteryContract.methods.betAndDistribute(challenges).send({from:account, value:5000000000000000, gas:gas, nonce:nonce});
+      console.log("[bet]", "Complete to betting");
+    }
+  }
+
+  const getBetEvents = async () => {
+    if(lotteryContract !== undefined){
+      let record = [];
+      let events = await lotteryContract.getPastEvents('BET', {fromBlock: 0, toBlock: 'latest'});
+      console.log("[getBetEvents]", "events:", events);
+    }
   }
 
 

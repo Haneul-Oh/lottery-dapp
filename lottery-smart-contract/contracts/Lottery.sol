@@ -18,7 +18,7 @@ contract Lottery {
     enum BlockStatus {Checkable, NotRevealed, BlockLimitPassed}
     enum BettingResult {Win, Draw, Fail}
 
-    bool mode = false; // if false, for test. If not, for real block Hash
+    bool mode = true; // if false, for test. If not, for real block Hash
     bytes32 blockHashForTest; 
 
     event BET(uint256 idx, address indexed bettor, uint256 indexed anwserBlockNum, bytes1 challenges);
