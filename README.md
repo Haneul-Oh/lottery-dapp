@@ -27,12 +27,4 @@ This lottery dapp is a game based on Ethereum to match the first two letters of 
        3. If only one of the two letters is correct, the transfer will be refunded.
        4. If the result cannot be confirmed, the transferred money will be refunded.
 
-## Prerequisite
-```
-Truffle v5.9.0 (core: 5.9.0)
-Ganache v7.8.0
-Solidity - 0.6.0 (solc-js)
-Node v18.16.0
-Web3.js v1.10.0
-```
-## How to Run
+
