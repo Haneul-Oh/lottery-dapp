@@ -7,11 +7,11 @@ However, I modified the existing code as below:
 
 <p align="center">
   <img alt="Example preview image" src="./img/main_before.png" width="100%">
-  <figcaption>Screen before connecting my account to Metamask</figcaption>
+  <figcaption>⬆️ Screen before connecting my account to Metamask</figcaption>
 </p>
 <p align="center">
   <img alt="Example preview image" src="./img/main.png" width="100%">
-  <figcaption>Screen after connecting my account to Metamask</figcaption>
+  <figcaption>⬆️ Screen after connecting my account to Metamask</figcaption>
 </p>
 
 
