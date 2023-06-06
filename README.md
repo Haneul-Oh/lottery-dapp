@@ -22,7 +22,7 @@ This lottery dapp is a game based on Ethereum to match the first two letters of 
   * User submits a betting transaction containing information (betting amount = 0.0005 ETH, 2 letters).
   * Compare the value to the block hash of +3 based on the block containing the betting transaction.
 - Pot money
-  1. Only when the result is obtained, the money transferred from the user will be accumulated in the pot money.
-  2. If more than one person is guessed, the first person to win wins the pot money.
-  3. If only one of the two letters is correct, the transfer will be refunded.
-  4. If the result cannot be confirmed, the transferred money will be refunded.
+  * Only when the result is obtained, the money transferred from the user will be accumulated in the pot money.
+  * If more than one person is guessed, the first person to win wins the pot money.
+  * If only one of the two letters is correct, the transfer will be refunded.
+  * If the result cannot be confirmed, the transferred money will be refunded.
