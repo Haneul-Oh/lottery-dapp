@@ -1,6 +1,10 @@
 # Lottery-Dapp
 This repository is clone-coded for [Infran lecture](https://www.inflearn.com/course/ethereum-dapp/dashboard).
 
+<p align="center">
+  <img alt="Example preview image" src="./img/main.png" width="100%">
+</p>
+
 ## Prerequisite
 ```
 Truffle v5.9.0 (core: 5.9.0)
