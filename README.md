@@ -5,6 +5,9 @@ However, I modified the existing code as below:
 - Create tables quickly using react-table
 - Previously, challenges could only be selected from a, b, c, and d, but modified to allow all cases
 
+## About Lottery-Dapp
+This lottery dapp is a game based on Ethereum to match the first two letters of the hash value of a future block.
+
 <p align="center">
   <img alt="Example preview image" src="./img/main_before.png" width="100%">
   <figcaption>⬆️ Screen before connecting my account to Metamask</figcaption>
