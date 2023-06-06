@@ -26,5 +26,3 @@ This lottery dapp is a game based on Ethereum to match the first two letters of 
        2. If more than one person is guessed, the first person to win wins the pot money.
        3. If only one of the two letters is correct, the transfer will be refunded.
        4. If the result cannot be confirmed, the transferred money will be refunded.
-
-
