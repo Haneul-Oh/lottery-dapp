@@ -8,6 +8,7 @@ However, I modified the existing code as below:
 ## About Lottery-Dapp
 This lottery dapp is a game based on Ethereum to match the first two letters of the hash value of a future block.
 
+I create a dapp using Truffle and React.
 <p align="center">
   <img alt="Example preview image" src="./img/main_before.png" width="100%">
   <figcaption>⬆️ Screen before connecting my account to Metamask</figcaption>
